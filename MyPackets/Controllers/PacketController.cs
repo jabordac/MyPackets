@@ -87,46 +87,5 @@ namespace MyNeighborhood.Controllers
             return Ok(lstPaquetesFinal);
         }
 
-        //private List<int> CompareHouses(List<int> lstCasasInicial)
-        //{
-        //    List<int> lstCasasFinal = new List<int>();
-        //    int inicio;
-        //    int fin;
-        //    int nuevoValor;
-
-        //    for (int i = 0; i <= (lstCasasInicial.Count - 1); i++)
-        //    {
-        //        if (i == 0)
-        //        {
-        //            inicio = 0;
-        //        }
-        //        else
-        //        {
-        //            inicio = lstCasasInicial[i - 1];
-        //        }
-
-        //        if (i == (lstCasasInicial.Count - 1))
-        //        {
-        //            fin = 0;
-        //        }
-        //        else
-        //        {
-        //            fin = lstCasasInicial[i + 1];
-        //        }
-
-        //        if ((inicio == 0 && fin == 0) || (inicio == 1 && fin == 1))
-        //        {
-        //            nuevoValor = 0;
-        //        }
-        //        else
-        //        {
-        //            nuevoValor = 1;
-        //        }
-
-        //        lstCasasFinal.Add(nuevoValor);
-        //    }
-
-        //    return lstCasasFinal;
-        //}
     }
 }
